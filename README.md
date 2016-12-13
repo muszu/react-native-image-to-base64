@@ -9,7 +9,9 @@ react-native-image-to-base64
 ## Usage
 
 ```javascript
-NativeModules.RNImageToBase64.getBase64String(uri, (err, base64) => {
+import ImageToBase64 from 'react-native-image-to-base64';
+
+ImageToBase64.getBase64String(uri, (err, base64) => {
   // Do something with the base64 string
 })
 ```
